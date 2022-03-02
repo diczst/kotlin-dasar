@@ -1,22 +1,25 @@
 fun main(){
-    // deklarasi variabel bernilai null
-    // akan error jika dijalankan karena sistem kotlin
-    // tidak mengijinkan sebuah objek bernilai null
-    // val text: String = null
+    // deklarasi variabel bernilai null akan error jika dijalankan karena sistem kotlin
+    // pada hakikatnya tidak mengijinkan sebuah variabel dideklarasikan dengan bernilai null
+    // val text: String = null // error
 
-    // dengan menambahkan tanda (?) sistem kotlin akan mengizinkan
-    // suatu objek atau variabel bernilai null
-    // dan dapat diatur kembali nilainya jika diperlukan
-    val text: String? = null
+    // Agar sistem kotlin mengijinkan suatu variabel dideklarasikan walaupun bernilai null maka
+    // kita menggunakan tanda (?) setelah tipe data variabel
 
-    // meskipun objek atau variabel diatas bersifat nullable namun
-    // kemungkinan terjadi error akan tetap terjadi karena nilainya yang masih null
-    // sehingga kita perlu melakukan pengecekan sebelum menggunakan objek nullable
+    var text: String? = null
+
+    // karena suatu variabel atau objek diijinkan dideklarasikan dengan bernilai null
+    // kemungkinan terjadinya error akibat null akan sangat berkemungkinan besar terjadi
+    // oleh karena itu, sebelum menggunakan atau mengakses suatu nullable object
+    // sebaiknya nullable object tersebut melalui pengecekan terlebih dahulu
     
-    // menggunakan nullable tanpa pengecekan apakah objek null (error)
-    // print(text.length)
+    // menggunakan nullable object tanpa pengecekan
+    // print(text.length) // error
 
-    // berikut adalah cara klasik yang umum untuk mengakses atau menggunakan sebuah variabel nullable
+    // berikut cara penggunaan atau pengaksesan sebuah variabel nullable
+    // diserta idengan pengecekan nullnya
+
+    // hanya akan dijalankan bila text tidak bernilai null
     if(text != null){
         print(text.length)
     }
