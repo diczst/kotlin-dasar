@@ -16,7 +16,7 @@ fun main(){
     // menggunakan nullable object tanpa pengecekan
     // print(text.length) // error
 
-    // berikut cara penggunaan atau pengaksesan sebuah variabel nullable
+    // berikut cara tradisional penggunaan atau pengaksesan sebuah variabel nullable
     // diserta idengan pengecekan nullnya
 
     // hanya akan dijalankan bila text tidak bernilai null
