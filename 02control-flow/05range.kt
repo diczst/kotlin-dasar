@@ -1,4 +1,9 @@
 fun main(){
+    // setelah range maka yang akan dipelajari selanjutnya adalah for-loop
+    // berbeda dengan sintaks for loop yang umum.
+    // Pada kotlin, keyword range ini akan diperlukan untuk
+    // menerapkan for loop
+
     // basic membuat range
     val rangeInt = 1..10
 
@@ -6,6 +11,15 @@ fun main(){
     rangeInt.forEach { 
         print("$it ")
      }
+
+     // it adalah default single implicit parameter pada kotlin
+     // it dapat diganti dengan sintaks sebagai berikut
+
+     // ganti single implicit parameter it dengan number
+     rangeInt.forEach{ number -> 
+        print("$number ")
+     }
+
 
      println()
 
