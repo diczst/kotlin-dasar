@@ -21,13 +21,10 @@ fun main() {
     // class biasa mengembalikan alamat memori
     println(user)
 
-        // data class mengembalikan sebuah string
-    // berisi data properties yang ada pada class tersebut
+    // data class mengembalikan sebuah string berisi data properties yang ada pada class tersebut
     println(dataUser)
 
-    // data class juga memungkinkan kita untuk
-    // membandingkan dua objek data class
-    // apakah memiliki kesamaan
+    // data class juga memungkinkan kita untuk membandingkan dua objek data class apakah memiliki kesamaan
     val userA = DataUser("Hasagi",20)
     val userB = DataUser("Hasagi",20)
 

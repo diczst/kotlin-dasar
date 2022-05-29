@@ -36,7 +36,7 @@ fun main(){
     // nilainya
 
     // Akan tetapi, kotlin telah menyediakan fitur
-    // untuk membuat list menjadi bersifat immutable
+    // untuk membuat list menjadi bersifat mutable
 
     val mutableList = mutableListOf("FirstName", 20)
     
