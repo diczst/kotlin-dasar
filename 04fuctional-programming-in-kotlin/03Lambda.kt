@@ -3,7 +3,7 @@
 // lambda dapat mengembalikan sebuah nilai ataupun tidak mengembalikan nilai apapun (hanya melakukan sesuatu)
 
 // Ciri-ciri lambda expression
-// 1. Tidak perlu menuliskan type data yang akan dikembalikan
+// 1. Tidak perlu menuliskan type data yang akan dikembalikan (dalam beberapa kasus harus didefisikan saat compiler tidak mengetahui type data yang akan dikembalikan)
 
 // 2. Walaupun merupakan sebuah fungsi, lambda tidak membutuhkan kata kunci fun dan visibility modifier saat dideklarasikan, karena lambda bersifat anonymous.
 
